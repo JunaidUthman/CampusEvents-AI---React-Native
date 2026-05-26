@@ -2,7 +2,9 @@
 
 Une application mobile multiplateforme développée avec React Native et Expo pour centraliser les événements universitaires et guider les étudiants de manière ultra-personnalisée grâce à l'Intelligence Artificielle.
 
-![CampusEvents AI Banner](./assets/banner-placeholder.png)
+<p align="center">
+  <img src="./assets/banner-placeholder.png" alt="CampusEvents AI Banner">
+</p>
 
 ## 📌 Le Problème & La Solution
 Les événements universitaires (workshops, conférences, réunions de clubs) sont souvent dispersés et manquent de visibilité. De plus, il est difficile pour un étudiant de filtrer ce qui est réellement pertinent pour lui parmi une mer d'informations.
@@ -20,14 +22,18 @@ L'application gère deux rôles distincts (avec navigation et UI adaptées) :
 - **Validations Intégrées** : Contrôle automatique de la cohérence des dates, des capacités et des champs requis.
 - **Cascade Delete** : La suppression d'un événement supprime automatiquement les inscriptions et favoris associés dans la base de données.
 
-![Interface Admin - Gestion des Événements](./assets/admin-dashboard-placeholder.png)
+<p align="center">
+  <img src="./assets/admin-dashboard-placeholder.png" alt="Interface Admin - Gestion des Événements">
+</p>
 
 ### 🎓 Rôle Étudiant (`etudiant@campus.ma`)
 - **Catalogue Intelligent** : Exploration des événements passés et à venir, recherche exacte et filtrage rapide par catégorie (Talk, Workshop, Club, Exam, etc.).
 - **Favoris & Inscriptions** : Gestion des participations (empêchant les doublons ou inscriptions sur des événements passés/complets) et sauvegarde des favoris.
 - **Assistant IA (Le Cœur du Projet)** : 4 fonctionnalités exclusives propulsées par l'Intelligence Artificielle.
 
-![Interface Étudiant - Catalogue et Inscriptions](./assets/student-catalog-placeholder.png)
+<p align="center">
+  <img src="./assets/student-catalog-placeholder.png" alt="Interface Étudiant - Catalogue et Inscriptions">
+</p>
 
 ---
 
@@ -38,21 +44,29 @@ L'assistant IA communique de manière asynchrone avec une API (par défaut DeepS
 ### 1. 🔍 Recherche en Langage Naturel
 *Exemple : "Un événement pour préparer ma recherche de stage."*
 L'IA raisonne sur la sémantique et trouve des événements pertinents même sans correspondances exactes de mots-clés (contrairement à une simple barre de recherche). Chaque résultat est justifié par l'IA.
-![Recherche en Langage Naturel](./assets/ai-search-placeholder.png)
+<p align="center">
+  <img src="./assets/ai-search-placeholder.png" alt="Recherche en Langage Naturel">
+</p>
 
 ### 2. ⭐ Recommandations Personnalisées
 L'IA analyse le profil de l'étudiant à partir de son historique (événements favoris et inscriptions) et suggère proactivement 3 événements à venir qui lui correspondent parfaitement, avec une explication claire.
-![Recommandations IA](./assets/ai-recommendations-placeholder.png)
+<p align="center">
+  <img src="./assets/ai-recommendations-placeholder.png" alt="Recommandations IA">
+</p>
 
 ### 3. 📅 Assistant de Planification
 *Exemple : "J'ai cours lundi et mercredi, aide-moi à planifier ma semaine."*
 L'étudiant décrit ses contraintes horaires, et le LLM propose un emploi du temps optimisé et cohérent sur la semaine, sans aucun conflit avec les événements du campus.
-![Assistant de Planification](./assets/ai-planning-placeholder.png)
+<p align="center">
+  <img src="./assets/ai-planning-placeholder.png" alt="Assistant de Planification">
+</p>
 
 ### 4. 💬 Questions Globales (Q&A)
 *Exemple : "Quels événements sont utiles pour une carrière en Data Science ?"*
 Le modèle scanne la totalité du catalogue pour formuler une réponse naturelle, tout en listant et associant les événements précis liés à la réponse.
-![Questions et Réponses Catalogue](./assets/ai-qa-placeholder.png)
+<p align="center">
+  <img src="./assets/ai-qa-placeholder.png" alt="Questions et Réponses Catalogue">
+</p>
 
 ---
 
